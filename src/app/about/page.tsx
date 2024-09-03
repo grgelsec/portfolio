@@ -87,7 +87,7 @@ export default function About() {
             </p>
             <p>
               Since then, my interest in computers became a love for programming
-              regardless if I was inside and outside of the classroom. I
+              regardless if I was inside or outside of the classroom. I
               developed a passion for building which helped me zero in on
               Software Engineering and I become more confident in that choice
               the more I learn. Now I am trying to gain as much experience as I
