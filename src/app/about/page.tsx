@@ -74,25 +74,26 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Ever since I was little I was obsessed with Computers. I would
+              Ever since I was little, I was obsessed with computers. I would
               always find my dad tinkering with hardware and finding ways to
-              keep our family computer in tip top shape. Whether it was pirating
-              macOS or ear-bleeding windows start up sounds. I was there to ask
-              Whats that? Why do you need that? Can I try?
+              keep our family computer in top shape. Whether it was pirating
+              macOS or enduring ear-bleeding Windows startup sounds, I was there
+              to ask, &ldquo;What&rsquo;s that?&rdquo; &ldquo;Why do you need
+              that?&rdquo; and &ldquo;Can I try?&rdquo;
             </p>
             <p>
-              Throughout my childhood, computers became second nature so when
-              college came around I naturally decided to pursue a degree in
-              Computer Science.
+              Throughout my childhood, computers became second nature to me, so
+              when college came around, I naturally decided to pursue a degree
+              in Computer Science.
             </p>
             <p>
-              Since then, my interest in computers became a love for programming
-              regardless if I was inside or outside of the classroom. I
-              developed a passion for building which helped me zero in on
-              Software Engineering and I become more confident in that choice
-              the more I learn. Now I am trying to gain as much experience as I
-              can whether it be through internships or side projects in order to
-              be prepared as a junior Engineer.
+              Since then, my interest in computers has evolved into a love for
+              programming, whether I am inside or outside the classroom. I
+              developed a passion for building, which helped me focus on
+              Software Engineering, and I have become more confident in that
+              choice the more I learn. Now, I am trying to gain as much
+              experience as I can through internships and side projects to
+              prepare myself as a junior engineer.
             </p>
           </div>
         </div>
