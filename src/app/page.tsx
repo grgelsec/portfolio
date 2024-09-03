@@ -11,9 +11,8 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/cosmos.svg'
+import logoAllied from '@/images/logos/allied.png'
+import logoLuddy from '@/images/logos/iu.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -188,7 +187,7 @@ function Resume() {
     {
       company: 'Luddy School of Informatics, Computing, and Engineering',
       title: 'Undergraduate Teaching Assistant',
-      logo: logoPlanetaria,
+      logo: logoLuddy,
       start: '2024',
       end: {
         label: 'Present',
@@ -198,14 +197,14 @@ function Resume() {
     {
       company: 'Allied Solutions LLC',
       title: 'Software Developer Intern (RPA)',
-      logo: logoAirbnb,
+      logo: logoAllied,
       start: '2024',
       end: '2024',
     },
     {
       company: 'University IT Services',
       title: 'Consultant Supervisor',
-      logo: logoFacebook,
+      logo: logoLuddy,
       start: '2023',
       end: '2024',
     },
