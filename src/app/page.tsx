@@ -256,7 +256,7 @@ export default async function Home() {
             />
             <SocialLink
               href="#"
-              aria-label="www.linkedin.com/in/grgelsec"
+              aria-label="https://www.linkedin.com/in/grgelsec/"
               icon={LinkedInIcon}
             />
           </div>
