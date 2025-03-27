@@ -13,6 +13,7 @@ import {
 } from '@/components/SocialIcons'
 import logoAllied from '@/images/logos/allied.png'
 import logoLuddy from '@/images/logos/iu.svg'
+import logoLilly from '@/images/logos/lilly.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -156,6 +157,13 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
+      company: 'Eli Lilly & Co.',
+      title: 'Incoming Software Engineer Intern',
+      logo: logoLilly,
+      start: 'May 2025',
+      end: 'Aug 2025',
+    },
+    {
       company: 'Luddy School of Informatics, Computing, and Engineering',
       title: 'Undergraduate Teaching Assistant',
       logo: logoLuddy,
@@ -192,10 +200,6 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
     </div>
   )
 }
@@ -239,9 +243,9 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m George, currently a junior at Indiana University majoring in
-            Computer Science with two minors in Math and Data Science. Outside
-            of coursework I am an undergraduate TA, Bible Study Leader, avid
-            Traveler, and a die-hard Christopher Nolan fan.
+            Computer Science a minor in Data Science. Outside of coursework I am
+            an undergraduate TA, Bible Study Leader, avid Traveler, and a
+            die-hard Christopher Nolan fan.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -270,23 +274,24 @@ export default async function Home() {
               What have I been up to?
             </p>
             <p className="mt-3 text-base text-zinc-600 dark:text-zinc-400">
-              Just finished up my summer internship and starting my junior year.
-              Oh and I just passed the AWS Cloud Practioner Exam!
+              School and building stuff I think is cool while studying for AWS
+              Solution Architect. Also I just got engaged!
             </p>
             <p className="mt-3 text-xl font-bold tracking-tight text-zinc-800 sm:text-2xl dark:text-zinc-100">
               What am I learning?
             </p>
             <p className="mt-3 text-base text-zinc-600 dark:text-zinc-400">
               Right now I am trying to become profficient in Typescript and
-              React. Having a good time with it and learning so much.
+              Next.js. Having a good time with it and learning so much.
             </p>
             <p className="mt-3 text-xl font-bold tracking-tight text-zinc-800 sm:text-2xl dark:text-zinc-100">
               Next focus?
             </p>
             <p className="mt-3 text-base text-zinc-600 dark:text-zinc-400">
-              I really want to learn Go, so that will be the next thing I get my
-              hands in. I am also aiming to put a lot of time into neetcode and
-              becoming comfortable with DSA.
+              I am starting my internship in may so after that I will find more
+              stuff to hack together. As of now I am focused on sharpening my
+              skills because I am super excited for my internship and cant wait
+              to build!
             </p>
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
