@@ -8,8 +8,29 @@ import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
-
+import logoPMC from '@/images/logos/pmc.png'
+import logoGlobe from '@/images/logos/globe.png'
 const projects = [
+  {
+    name: 'Nextroom',
+    description:
+      'Room availability browser integrated with mapbox and data sraped with puppeteer and hosted on AWS Amplify. (My Favorite Project) This was heavily inspired by @aksharbarot on X.',
+    link: {
+      href: 'https://main.d1paty8xz34qlc.amplifyapp.com/',
+      label: 'Nextroom',
+    },
+    logo: logoGlobe,
+  },
+  {
+    name: 'Product Management Club Website',
+    description:
+      'Website I built while serving as the Director of Technology for the Indiana University Product Management Club.',
+    link: {
+      href: 'https://www.pmciu.club/',
+      label: 'pmciu.club',
+    },
+    logo: logoPMC,
+  },
   {
     name: 'Cinemaroll',
     description:
@@ -24,14 +45,14 @@ const projects = [
     name: 'Bluejack',
     description:
       'Web game where you are coached by AI to learn Blackjack. Built with TypeScript/React.',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'https://blackjackai.vercel.app/', label: 'Blackjack.ai' },
     logo: logoAnimaginary,
   },
   {
     name: 'PizzaCLI',
     description:
       'CLI simulation of two chefs cooking through an order list asyncronously. Orders are brought in through Amazon SQS. Built with Python',
-    link: { href: 'https://github.com/grgelsec/PizzaCLI', label: 'Repo' },
+    link: { href: 'https://github.com/grgelsec/PizzaCLI', label: 'PizzaCLI' },
     logo: logoHelioStream,
   },
 ]
