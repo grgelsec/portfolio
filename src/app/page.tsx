@@ -243,8 +243,8 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m George, currently a junior at Indiana University majoring in
-            Computer Science a minor in Data Science. Outside of coursework I am
-            an undergraduate TA, Bible Study Leader, avid Traveler, and a
+            Computer Science with a minor in Data Science. Outside of coursework
+            I am an undergraduate TA, Bible Study Leader, avid Traveler, and a
             die-hard Christopher Nolan fan.
           </p>
           <div className="mt-6 flex gap-6">
