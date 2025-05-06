@@ -41,20 +41,6 @@ const projects = [
     },
     logo: logoPlanetaria,
   },
-  {
-    name: 'Bluejack',
-    description:
-      'Web game where you are coached by AI to learn Blackjack. Built with TypeScript/React.',
-    link: { href: 'https://blackjackai.vercel.app/', label: 'Blackjack.ai' },
-    logo: logoAnimaginary,
-  },
-  {
-    name: 'PizzaCLI',
-    description:
-      'CLI simulation of two chefs cooking through an order list asyncronously. Orders are brought in through Amazon SQS. Built with Python',
-    link: { href: 'https://github.com/grgelsec/PizzaCLI', label: 'PizzaCLI' },
-    logo: logoHelioStream,
-  },
 ]
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
